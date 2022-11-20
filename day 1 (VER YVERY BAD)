@@ -1,0 +1,8 @@
+HumanoidRootPart=workspace.Dummy.HumanoidRootPart
+RightFoot=workspace.Dummy.RightFoot
+while true do
+	wait(0.01)
+	HumanoidRootPart.Color=Color3.new(math.random(1,100)/100,math.random(1,100)/100,math.random(1,100)/100)
+	RightFoot.Color=Color3.new(math.random(1,100)/100,math.random(1,100)/100,math.random(1,100)/100)
+
+end -- Basic script to change the color of someone's chest rapidly (Arth WILL explain to you if you have quesitons)
